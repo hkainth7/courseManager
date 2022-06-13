@@ -24,4 +24,36 @@ body {
 .title {
     font-size: 36px;
     font-weight: 700;
-} 
+}
+
+.form-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+    height: 100px;
+    background-color: #eee;
+    padding: 20px 30px;
+}
+
+
+/* helper class */
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap; /* added line */
+	border: 0;
+}
