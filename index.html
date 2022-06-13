@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Manager</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="title-container">
+            <h1 class="title">My Classes</h1>
+        </div>
+        <div class="form-container">
+            <form enctype="multipart/form-data" action="./processCourse.php" method="post" class="form">
+                <div class="course-input-container">
+                    <div class="input">
+                        <label for="courseName" class="course-label">Enter Course Number</label>
+                        <input type="text" name="courseName" id="courseName" placeholder="Enter Course Name">
+                    </div>
+                </div>
+                <div class="add-button-container">
+                    <input type="submit" value="Add" class="add-button">
+                </div>
+            </form>
+        </div>
+        <div class="current-courses-list-container">
+            <div class="current-course-container">
+                <div class="course-checkbox-container">
+                    <input type="checkbox" name="course" id="course" class="course-checkbox">
+                </div>
+                <div class="course-name-container">
+                    <h3 class="course-name">COMP 3015</h3>
+                </div>
+                <div class="buttons-container">
+                    <div class="edit-button-container">
+                        <button class="edit">Edit</button>
+                    </div>
+                    <div class="remove-button-container">
+                        <button class="remove">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="completed-courses-list-container">
+            <div class="completed-course-container">
+                <div class="course-checkbox-container">
+                    <input type="checkbox" name="course" id="course" class="course-checkbox" checked>
+                </div>
+                <div class="course-name-container">
+                    <h3 class="course-name">COMP 3015</h3>
+                </div>
+                <div class="buttons-container">
+                    <div class="return-button-container">
+                        <button class="return">return</button>
+                    </div>
+                    <div class="edit-button-container">
+                        <button class="edit">Edit</button>
+                    </div>
+                    <div class="remove-button-container">
+                        <button class="remove">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

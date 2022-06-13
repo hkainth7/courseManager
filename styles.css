@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#wrapper {
+     height: 100vh;
+}
+
+.title-container {
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+} 
