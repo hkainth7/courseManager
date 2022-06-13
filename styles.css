@@ -16,8 +16,7 @@ body {
 }
 
 .title-container {
-    padding: 30px 25px 20px 35px;
-    
+    padding: 10px 25px 20px 35px;
 }
 
 .title {
@@ -85,6 +84,84 @@ body {
     display: flex;
     padding: 20px 50px;
     justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.courses-list-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+    height: 500px;
+    width: 650px;
+}
+
+.courses-list-container h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    width: 550px;
+    height: 70px;
+    padding: 15px;
+}
+
+.course-container input {
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:focus {
+    outline: 0;
+}
+
+.course-container .course-checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+
+.course-container .buttons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+.course-container .buttons-container .btn {
+    height: 40px;
+    width: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.course-container .buttons-container .edit,
+.course-container .buttons-container .return {
+    background-color: #205FBD;
+}
+
+.course-container .buttons-container .edit img,
+.course-container .buttons-container .remove img,
+.course-container .buttons-container .return img {
+    height: 25px;
+    width: 25px;
+}
+
+.course-container .buttons-container .remove {
+    background-color: #ef0d0d;
 }
 
 
