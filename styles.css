@@ -16,15 +16,16 @@ body {
 }
 
 .title-container {
-    padding: 15px;
-    padding-top: 30px;
-    text-align: center;
+    padding: 30px 25px 20px 35px;
+    
 }
 
 .title {
     font-size: 36px;
-    font-weight: 700;
+    
 }
+
+/* style form and inputs */
 
 .form-container {
     padding: 15px;
@@ -41,10 +42,53 @@ body {
     height: 100px;
     background-color: #eee;
     padding: 20px 30px;
+    border-radius: 4px;
+}
+
+.input{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    height: 100%;
+    width: 75%;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 32px;
+}
+
+.add-button-container input {
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 50px;
+    background-color: #205FBD;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.input input::placeholder {
+    font-size: 32px;
 }
 
 
-/* helper class */
+/* style courses section */
+
+.courses-container {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+
+
+/* helper classes */
 
 .sr-only {
 	position: absolute;

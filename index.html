@@ -20,8 +20,8 @@
             <form enctype="multipart/form-data" action="./processCourse.php" method="post" class="form">
                 <div class="course-input-container">
                     <div class="input">
-                        <label for="courseName" class="sr-only">Enter Course Number</label>
-                        <input type="text" name="courseName" id="courseName" placeholder="Enter Course Name">
+                        <label for="courseName" class="sr-only">Enter Course</label>
+                        <input type="text" name="courseName" id="courseName" placeholder="Enter Course...">
                     </div>
                     <div class="add-button-container">
                         <input type="submit" value="Add" class="add-button">
@@ -29,41 +29,43 @@
                 </div>
             </form>
         </div>
-        <div class="current-courses-list-container">
-            <div class="current-course-container">
-                <div class="course-checkbox-container">
-                    <input type="checkbox" name="course" id="course" class="course-checkbox">
-                </div>
-                <div class="course-name-container">
-                    <h3 class="course-name">COMP 3015</h3>
-                </div>
-                <div class="buttons-container">
-                    <div class="edit-button-container">
-                        <button class="edit">Edit</button>
+        <div class="courses-container">
+            <div class="current-courses-list-container">
+                <div class="current-course-container">
+                    <div class="course-checkbox-container">
+                        <input type="checkbox" name="course" id="course" class="course-checkbox">
                     </div>
-                    <div class="remove-button-container">
-                        <button class="remove">Remove</button>
+                    <div class="course-name-container">
+                        <h3 class="course-name">COMP 3015</h3>
+                    </div>
+                    <div class="buttons-container">
+                        <div class="edit-button-container">
+                            <button class="edit">Edit</button>
+                        </div>
+                        <div class="remove-button-container">
+                            <button class="remove">Remove</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="completed-courses-list-container">
-            <div class="completed-course-container">
-                <div class="course-checkbox-container">
-                    <input type="checkbox" name="course" id="course" class="course-checkbox" checked>
-                </div>
-                <div class="course-name-container">
-                    <h3 class="course-name">COMP 3015</h3>
-                </div>
-                <div class="buttons-container">
-                    <div class="return-button-container">
-                        <button class="return">return</button>
+            <div class="completed-courses-list-container">
+                <div class="completed-course-container">
+                    <div class="course-checkbox-container">
+                        <input type="checkbox" name="course" id="course" class="course-checkbox" checked>
                     </div>
-                    <div class="edit-button-container">
-                        <button class="edit">Edit</button>
+                    <div class="course-name-container">
+                        <h3 class="course-name">COMP 3015</h3>
                     </div>
-                    <div class="remove-button-container">
-                        <button class="remove">Remove</button>
+                    <div class="buttons-container">
+                        <div class="return-button-container">
+                            <button class="return">return</button>
+                        </div>
+                        <div class="edit-button-container">
+                            <button class="edit">Edit</button>
+                        </div>
+                        <div class="remove-button-container">
+                            <button class="remove">Remove</button>
+                        </div>
                     </div>
                 </div>
             </div>
