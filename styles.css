@@ -103,7 +103,10 @@ body {
     text-align: center;
     font-size: 32px;
     font-weight: 400;
+    margin-bottom: 15px;
 }
+
+/* stle course container */
 
 .course-container {
     display: flex;
@@ -123,21 +126,17 @@ body {
     cursor: pointer;
 }
 
-input[type="checkbox"]:focus {
-    outline: 0;
-}
-
 .course-container .course-checkbox-container {
     display: flex;
     align-items: center;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .course-container .buttons-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 200px;
+    gap: 20px;
 }
 
 .course-container .buttons-container .btn {
