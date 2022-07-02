@@ -132,14 +132,14 @@ body {
     font-size: 24px;
 }
 
-.course-container .buttons-container {
+.buttons-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
 }
 
-.course-container .buttons-container .btn {
+.buttons-container .btn {
     height: 40px;
     width: 60px;
     border: none;
@@ -147,19 +147,21 @@ body {
     cursor: pointer;
 }
 
-.course-container .buttons-container .edit,
-.course-container .buttons-container .return {
+.buttons-container .edit,
+.buttons-container .return,
+.buttons-container .upload {
     background-color: #205FBD;
 }
 
-.course-container .buttons-container .edit img,
-.course-container .buttons-container .remove img,
-.course-container .buttons-container .return img {
+.buttons-container .edit img,
+.buttons-container .remove img,
+.buttons-container .return img,
+.buttons-container .upload img {
     height: 25px;
     width: 25px;
 }
 
-.course-container .buttons-container .remove {
+.buttons-container .remove {
     background-color: #ef0d0d;
 }
 

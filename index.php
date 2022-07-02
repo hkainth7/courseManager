@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Manager</title>
+    <title>Course Tracker</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,14 +17,21 @@
             <h1 class="title">My Classes</h1>
         </div>
         <div class="form-container">
-            <form enctype="multipart/form-data" action="./processCourse.php" method="post" class="form">
+            <form enctype="multipart/form-data" action="./process_course.php" method="post" class="form">
                 <div class="course-input-container">
                     <div class="input">
-                        <label for="courseName" class="sr-only">Enter Course</label>
-                        <input type="text" name="courseName" id="courseName" placeholder="Enter Course...">
+                        <label for="course_name" class="sr-only">Enter Course</label>
+                        <input type="text" name="course_name" id="course_name" placeholder="Enter Course...">
                     </div>
-                    <div class="add-button-container">
-                        <input type="submit" value="Add" class="add-button">
+                    <div class="buttons-container">
+                        <div class="upload-image-container">
+                            <button class="upload btn">
+                                <img src="./assets/icons8-upload-32.png" alt="upload image icon">
+                            </button>
+                        </div>
+                        <div class="add-button-container">
+                            <input type="submit" value="Add" class="add-button">
+                        </div>
                     </div>
                 </div>
             </form>
@@ -38,6 +45,7 @@
                         <div class="course-name-container">
                             <h3 class="course-name">COMP 3015</h3>
                         </div>
+                        
                     </div>
                     <div class="buttons-container">
                         <div class="edit-button-container">
